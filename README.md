@@ -1,5 +1,7 @@
 # RabbitMQ Manager API Client
 
+**patched for digitalage project**
+
 [![Build Status](https://secure.travis-ci.org/alchemy-fr/RabbitMQ-Management-API-Client.png?branch=master)](https://travis-ci.org/alchemy-fr/RabbitMQ-Management-API-Client)
 
 This library is intended to help management of RabbitMQ server in an application.
