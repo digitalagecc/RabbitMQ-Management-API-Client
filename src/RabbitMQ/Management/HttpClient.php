@@ -4,7 +4,6 @@ namespace RabbitMQ\Management;
 
 use Guzzle\Common\Collection;
 use Guzzle\Service\Client;
-use RabbitMQ\Management\Exception\RuntimeException;
 
 class HttpClient extends Client
 {

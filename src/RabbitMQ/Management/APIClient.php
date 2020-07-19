@@ -13,14 +13,11 @@ use RabbitMQ\Management\Exception\PreconditionFailedException;
 use RabbitMQ\Management\Exception\RuntimeException;
 use RabbitMQ\Management\Exception\InvalidArgumentException;
 use RabbitMQ\Management\Exception\EntityNotFoundException;
-use RabbitMQ\Management\HttpClient;
 
 class APIClient
 {
-    /**
-     * @var RabbitMQCient
-     */
-    private $client;
+    protected $client;
+
     private $hydrator;
 
     public static function factory(array $options = array())
